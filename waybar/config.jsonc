@@ -1,0 +1,124 @@
+{
+    "margin-top" : 5,
+    "position": "bottom",
+        "margin-left": 10,
+        "margin-right": 10,
+        "height" : 30,
+        "modules-left": [
+            "custom/logo",
+            "hyprland/workspaces",
+            "hyprland/window"
+        ],
+        "modules-center": [
+            "clock"
+        ],
+        "modules-right": [
+        "tray",
+        "pulseaudio",
+        "network",
+        "bluetooth",
+        "backlight",
+        "temperature",
+        "cpu",
+        "memory",
+        "battery",
+        "custom/power"
+        ],
+        "hyprland/window": {
+            "format": " {}",
+            "max-length": 35,
+            "rewrite": {
+  		"": " Hyprland"
+  	},
+            "separate-outputs": true,
+        },
+        "custom/logo": {
+            "format": "<span size='large'>󰣇 </span>"
+        },
+        "custom/power": {
+            "format": "<span size='large'> ⏻ {}</span>",
+            "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu --choices=lockscreen/suspend/logout/reboot/shutdown"
+        },
+        "hyprland/workspaces": {
+            "format": "{icon}",
+            "on-click": "activate",
+            "format-icons": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "active": "",
+                "default": ""
+            },
+            "sort-by-number": true,
+            "persistent-workspaces": {
+                "*": 5, // 5 workspaces by default on every monitor
+                "HDMI-A-1": 3 // but only three on HDMI-A-1
+            },
+        },
+        "clock": {
+		    "format": "{:%Y-%m-%d - %H:%M}"
+        },
+        "cpu": {
+            "format": "   {usage}%",
+            "tooltip": false
+        },
+        "memory": {
+            "format": "   {}%"
+        },
+        "temperature": {
+            "critical-threshold": 90,
+            "format": "{icon} {temperatureC}°C",
+            "format-icons": ["", "", ""]
+        },
+        "battery": {
+            "states": {
+                "warning": 30,
+                "critical": 15
+            },
+            "format": " {icon}  {capacity}%",
+            "format-full": " {icon}  {capacity}%",
+            "format-charging": "   {capacity}%",
+            "format-plugged": "   {capacity}%",
+            "format-icons": [" ", " ", " ", " ", " "]
+        },
+        "network": {
+            "format-wifi": " ",
+            "format-ethernet": "󰈁 ",
+            "tooltip-format": "{ifname} via {gwaddr} ",
+            "format-linked": "{ifname} (No IP) ",
+            "format-disconnected": " ⚠ ",
+            "on-click": "exec /home/thecoon/.config/waybar/iwgtk.sh"
+        },
+        "pulseaudio": {
+            "format": "󰓃 {volume}%",
+            "format-bluetooth": "󰋋  {volume}%",
+            "format-bluetooth-muted": "󰟎  {volume}%",
+            "format-muted": "󰓄 {volume}%",
+            "format-icons": {
+                "headphone": "󰓃",
+                "hands-free": "",
+                "headset": "",
+                "phone": "",
+                "portable": "",
+                "car": "",
+                "default": ["󰓄", "󰓃", "󰓃"]
+            },
+            "on-click": "exec /home/thecoon/.config/waybar/pavu.sh"
+        },
+        "backlight": {
+        "format": " {percent}% ",
+        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+        },
+        "bluetooth": {
+		"icon-size":16,
+		"format": "<span size='large'> 󰂯 </span>",
+		"format-disabled": "<span size='large'> 󰂲 </span>", // an empty format will hide the module
+		"format-connected": "<span size='large'> 󰂱 </span>",
+		"tooltip-format": "{controller_alias}\t{controller_address}",
+		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		"on-click": "exec /home/thecoon/.config/waybar/blueman.sh"
+	},
+}
