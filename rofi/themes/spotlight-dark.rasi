@@ -7,8 +7,8 @@
 * {
     font:   "Montserrat 12";
 
-    bg0:    #242424E6;
-    bg1:    #7E7E7E80;
+    bg0:    #24273a;
+    bg1:    #24273a;
     bg2:    #0860f2E6;
 
     fg0:    #DEDEDE;

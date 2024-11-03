@@ -1,4 +1,4 @@
-@import "macchiato.css";
+@import "colors.css";
 * {
     font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -72,7 +72,6 @@ button {
     color: @sky;
 }
 .modules-right,.modules-left,.modules-center {
-    background-color: @base;
     border-radius: 10px;
 }
 .modules-right {
