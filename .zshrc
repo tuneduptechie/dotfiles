@@ -7,6 +7,8 @@ alias clean='paru -R $(paru -Qtdq) --noconfirm'
 alias list='pacman -Q'
 alias find='pacman -Q | grep'
 alias proton='protonup-rs'
+alias cvpn='sudo protonvpn connect us-fl-01'
+alias dvpn='sudo protonvpn disconnect'
 
 alias tkg='cd ~/Git/linux-tkg && makepkg -si && sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias backup='~/.scripts/game-backup.sh'
