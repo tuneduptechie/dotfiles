@@ -1,16 +1,16 @@
 {
     "margin-top" : 5,
-    "position": "top",
+    "position": "bottom",
         "margin-left": 10,
         "margin-right": 10,
         "height" : 30,
         "modules-left": [
             "custom/logo",
-            "hyprland/workspaces",
+            "clock",
             "hyprland/window"
         ],
         "modules-center": [
-            "clock"
+            "hyprland/workspaces"
         ],
         "modules-right": [
         "tray",
@@ -65,7 +65,7 @@
             "tooltip": false
         },
         "memory": {
-            "format": "   {}%"
+            "format": "    {}%"
         },
         "temperature": {
             "critical-threshold": 90,
@@ -77,19 +77,20 @@
                 "warning": 30,
                 "critical": 15
             },
+            "interval": 3,
             "format": " {icon}  {capacity}%",
             "format-full": " {icon}  {capacity}%",
-            "format-charging": "   {capacity}%",
-            "format-plugged": "   {capacity}%",
-            "format-icons": [" ", " ", " ", " ", " "]
+            "format-charging": " 󰂄  {capacity}%",
+            "format-plugged": "  {capacity}%",
+            "format-icons": ["󰁺", "󰁼", "󰁾", "󰂀", "󰁹"]
         },
         "network": {
             "format-wifi": " ",
-            "format-ethernet": "󰈁 ",
+            "format-ethernet": "<span size='medium'> </span>",
             "tooltip-format": "{ifname} via {gwaddr} ",
             "format-linked": "{ifname} (No IP) ",
             "format-disconnected": " ⚠ ",
-            "on-click": "exec /home/thecoon/.config/waybar/iwgtk.sh"
+            "on-click": "exec $HOME/dotfiles/scripts/iwgtk.sh"
         },
         "pulseaudio": {
             "format": "󰓃 {volume}%",
@@ -105,11 +106,10 @@
                 "car": "",
                 "default": ["󰓄", "󰓃", "󰓃"]
             },
-            "on-click": "exec /home/thecoon/.config/waybar/pavu.sh"
+            "on-click": "exec $HOME/dotfiles/scripts/pavu.sh"
         },
         "backlight": {
-        "format": " {percent}% ",
-        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+        "format": "󱄄  {percent}% "
         },
         "bluetooth": {
 		"icon-size":16,
@@ -119,6 +119,6 @@
 		"tooltip-format": "{controller_alias}\t{controller_address}",
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-		"on-click": "exec /home/thecoon/.config/waybar/blueman.sh"
+		"on-click": "exec $HOME/dotfiles/scripts/blueman.sh"
 	},
 }

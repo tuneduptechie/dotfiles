@@ -7,6 +7,10 @@ YELLOW="$(tput setaf 3)[NOTE]$(tput sgr0)"
 CAT="$(tput setaf 6)[ACTION]$(tput sgr0)"
 LOG="install.log"
 ARCH-PKG="pkg-arch.txt"
+FEDORA-PKG="pkg-fedora.txt"
+UBUNTU-PKG="pkg-ubuntu.txt"
+NIX-PKG="pkg-nix.txt"
+
 # Set the script to exit on error
 set -e
 

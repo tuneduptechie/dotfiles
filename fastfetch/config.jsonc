@@ -30,12 +30,12 @@
         {
             "type": "gpu",
             "detectionMethod": "pci",
-            "key": "  "
+            "key": "  󰢮"
         },
         
         {
             "type": "memory",
-            "key": "  "
+            "key": "  "
         },
         {
             "type": "disk",
