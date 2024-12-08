@@ -1,43 +1,41 @@
 {
-    "margin-top" : 5,
-    "position": "bottom",
-        "margin-left": 10,
-        "margin-right": 10,
-        "height" : 30,
+    "margin-top" : 4,
+    "position": "top",
+        "margin-left": 4,
+        "margin-right": 4,
+        "margin-bottom": 0,
+        "height" : 36,
         "modules-left": [
-            "custom/logo",
-            "clock",
-            "hyprland/window"
+            "hyprland/workspaces",
+            "clock"
         ],
         "modules-center": [
-            "hyprland/workspaces"
         ],
         "modules-right": [
-        "tray",
-        "pulseaudio",
-        "network",
-        "bluetooth",
-        "backlight",
-        "temperature",
-        "cpu",
-        "memory",
-        "battery",
-        "custom/power"
+            "tray",
+            "cpu",
+            "memory",
+            "pulseaudio",
+            "network",
+            "bluetooth",
+            "backlight",
+            "idle_inhibitor",
+            "battery"
         ],
-        "hyprland/window": {
-            "format": " {}",
-            "max-length": 35,
-            "rewrite": {
-  		"": " Hyprland"
-  	},
-            "separate-outputs": true,
+        "idle_inhibitor": {
+            "format": "{icon}",
+            "format-icons": {
+                "activated": "",
+                "deactivated": ""
+            }
         },
-        "custom/logo": {
-            "format": "<span size='large'>󰣇 </span>"
+        "custom/logo":{
+            "format": "<span size='large'>󰣇 </span>",
+            "on-click": "exec hyprlauncher"
         },
         "custom/power": {
-            "format": "<span size='large'> ⏻ {}</span>",
-            "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu --choices=lockscreen/suspend/logout/reboot/shutdown"
+            "format": "<span size='large'>⏻ {}</span>",
+            "on-click": "exec $HOME/dotfiles/scripts/power.sh"
         },
         "hyprland/workspaces": {
             "format": "{icon}",
@@ -58,13 +56,15 @@
             },
         },
         "clock": {
-		    "format": "{:%Y-%m-%d - %H:%M}"
+		    "format": " {:%Y-%m-%d  %H:%M}"
         },
         "cpu": {
+	    "interval": 3,
             "format": "   {usage}%",
             "tooltip": false
         },
         "memory": {
+	    "interval": 3,
             "format": "    {}%"
         },
         "temperature": {
@@ -85,6 +85,7 @@
             "format-icons": ["󰁺", "󰁼", "󰁾", "󰂀", "󰁹"]
         },
         "network": {
+            "interval": 3,
             "format-wifi": " ",
             "format-ethernet": "<span size='medium'> </span>",
             "tooltip-format": "{ifname} via {gwaddr} ",
@@ -93,7 +94,10 @@
             "on-click": "exec $HOME/dotfiles/scripts/iwgtk.sh"
         },
         "pulseaudio": {
+            "interval": 3,
             "format": "󰓃 {volume}%",
+            "format-source": "{volume}% ",
+            "format-source-muted": "{volume}%  ",
             "format-bluetooth": "󰋋  {volume}%",
             "format-bluetooth-muted": "󰟎  {volume}%",
             "format-muted": "󰓄 {volume}%",
@@ -109,16 +113,16 @@
             "on-click": "exec $HOME/dotfiles/scripts/pavu.sh"
         },
         "backlight": {
-        "format": "󱄄  {percent}% "
+            "format": "󱄄  {percent}% "
         },
         "bluetooth": {
-		"icon-size":16,
-		"format": "<span size='large'> 󰂯 </span>",
-		"format-disabled": "<span size='large'> 󰂲 </span>", // an empty format will hide the module
-		"format-connected": "<span size='large'> 󰂱 </span>",
-		"tooltip-format": "{controller_alias}\t{controller_address}",
-		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-		"on-click": "exec $HOME/dotfiles/scripts/blueman.sh"
+		    "icon-size":16,
+		    "format": "<span size='large'> 󰂯 </span>",
+		    "format-disabled": "<span size='large'> 󰂲 </span>", // an empty format will hide the module
+		    "format-connected": "<span size='large'> 󰂱 </span>",
+		    "tooltip-format": "{controller_alias}\t{controller_address}",
+		    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+		    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		    "on-click": "exec $HOME/dotfiles/scripts/blueman.sh"
 	},
 }

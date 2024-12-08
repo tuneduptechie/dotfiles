@@ -10,8 +10,9 @@ configuration {
 * {
     font: "0XProto";
     foreground: #f8f8f2;
+    selected-fore: #ffffff;
     background-color: #282a36;
-    active-background: #6272a4;
+    active-background: #00ffff;
     urgent-background: #ff5555;
     urgent-foreground: #282a36;
     selected-background: @active-background;
@@ -25,8 +26,8 @@ configuration {
     background-color: @background-color;
     border:           3;
     border-radius:    6;
-    yoffset: 0;
-    xoffset: 16px;
+    width: env(WIDTH, 13%);
+    height: env(HEIGHT, 30%);
     border-color:     @bordercolor;
     padding:          15;
 }
@@ -133,4 +134,5 @@ configuration {
 element-text, element-icon {
     background-color: inherit;
     text-color: inherit;
+    size: 2.5em;
 }

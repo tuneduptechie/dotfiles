@@ -1,5 +1,5 @@
 fastfetch
-export ZSH="/home/thecoon/dotfiles/oh-my-zsh"
+export ZSH="$HOME/dotfiles/oh-my-zsh"
 
 alias update='sudo pacman -Sy && paru -Syyuu --noconfirm'
 alias install='paru --needed --noconfirm -S'
@@ -9,13 +9,13 @@ alias find='pacman -Q | grep'
 alias proton='protonup-rs'
 alias cvpn='sudo protonvpn connect us-fl-01'
 alias dvpn='sudo protonvpn disconnect'
-
-alias tkg='cd ~/Git/linux-tkg && makepkg -si && sudo grub-mkconfig -o /boot/grub/grub.cfg'
-alias backup='~/.scripts/game-backup.sh'
-
-alias ll='ls -l'
-alias ls='ls -a'
+alias svpn='protonvpn status'
+alias tkg='cd ~/.cache && git clone https://github.com/Frogging-Family/linux-tkg && makepkg -si && rm -rf ~/.cache'
+alias dots='cd ~/dotfiles'
+alias dev='cd ~/Projects'
+alias ls='ls -l'
 alias ff='fastfetch'
+alias fstab='sudo nano /etc/fstab'
 
 ZSH_THEME="fox"
 

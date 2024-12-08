@@ -16,3 +16,10 @@ hypridle
 hyprlock
 blueman
 caja
+qt6-svg
+qt6-declarative
+qt5-quickcontrols2
+otf-font-awesome
+power-profiles-daemon 
+hyprpolkitagent-git
+

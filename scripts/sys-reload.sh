@@ -1,7 +1,6 @@
 pkill waybar
-sleep 0.5
+sleep 0.2
 pkill hyprpaper
-sleep 0.5
+sleep 0.2
 hyprpaper
-sleep 0.5
 waybar
