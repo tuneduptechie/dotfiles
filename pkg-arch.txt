@@ -15,11 +15,10 @@ ttf-0xproto-nerd
 hypridle
 hyprlock
 blueman
-caja
+dolphin
 qt6-svg
 qt6-declarative
 qt5-quickcontrols2
 otf-font-awesome
 power-profiles-daemon 
-hyprpolkitagent-git
-
+hyprpolkitagent

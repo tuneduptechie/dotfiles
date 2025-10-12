@@ -1,0 +1,7 @@
+shell zsh
+background_opacity 1
+background #282a36
+blur disabled
+shell_integration enabled
+font_size 18
+

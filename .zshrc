@@ -1,24 +1,25 @@
 fastfetch
-export ZSH="$HOME/dotfiles/oh-my-zsh"
 
-alias update='sudo pacman -Sy && paru -Syyuu --noconfirm'
-alias install='paru --needed --noconfirm -S'
-alias clean='paru -R $(paru -Qtdq) --noconfirm'
-alias list='pacman -Q'
-alias find='pacman -Q | grep'
+export ZSH="$HOME/dotfiles/oh-my-zsh"
+ZSH_THEME="kphoen"
+source $ZSH/oh-my-zsh.sh
+
+alias update='sudo dnf update -y'
+alias install='sudo dnf install'
+alias remove='sudo dnf remove'
+alias find='dnf list --installed | grep'
 alias proton='protonup-rs'
-alias cvpn='sudo protonvpn connect us-fl-01'
-alias dvpn='sudo protonvpn disconnect'
-alias svpn='protonvpn status'
-alias tkg='cd ~/.cache && git clone https://github.com/Frogging-Family/linux-tkg && makepkg -si && rm -rf ~/.cache'
+alias tkg='cd ~/Git && git clone --depth=1 https://github.com/Frogging-Family/linux-tkg && cd linux-tkg && makepkg -si && cd && rm -rf ~/Git/linux-tkg'
 alias dots='cd ~/dotfiles'
 alias dev='cd ~/Projects'
 alias ls='ls -l'
-alias ff='fastfetch'
-alias fstab='sudo nano /etc/fstab'
+alias size='du -sh *'
 
-ZSH_THEME="fox"
-
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
+alias fstab='sudo nvim /etc/fstab'
+alias flac='$HOME/.scripts/flac.sh'
+alias dl='yt-dlp -x -f best -o "$HOME/Music/Downloads/.%(ext)s" --audio-format flac'
+alias winon='sudo virsh start win11'
+alias winoff='sudo virsh shutdown win11'
+alias winedit='sudo EDITOR=nvim virsh edit win11'
+alias winkill='sudo virsh destroy win11'
+alias grubdate='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
