@@ -1,0 +1,10 @@
+[Unit]
+Description=Change wallpaper on X display :0
+Wants=change-wallpaper.timer
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh ~/.scripts/wallpaper.sh
+
+[Install]
+WantedBy=graphical.target   

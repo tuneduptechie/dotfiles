@@ -1,0 +1,16 @@
+backend = "xrender";
+animations = true;
+
+
+animation-stiffness = 100;
+
+animation-for-open-window = "zoom";
+animation-for-unmap-window = "zoom";
+animation-for-workspace-switch-out = "fly-out";
+animation-for-workspace-switch-in = "fly-in";
+unredir-if-possible = true;
+use-damage = true;
+
+rounded-corners-exclude = [
+  "class_g = 'Polybar'"
+];

@@ -1,0 +1,32 @@
+;paint.net Palette File
+;Downloaded from Lospec.com/palette-list
+;Palette Name: gruvbox dark
+;Description: This palette is an original work of Morhetz. Check the official github here: https://github.com/morhetz/gruvbox
+;Colors: 27
+FF1d2021
+FF282828
+FF32302f
+FF3c3836
+FF504945
+FF665c54
+FF7c6f64
+FF928374
+FFa89984
+FFbdae93
+FFd5c4a1
+FFebdbb2
+FFfbf1c7
+FFcc241d
+FFfb4934
+FFd65d0e
+FFfe8019
+FFd79921
+FFfabd2f
+FF98971a
+FFb8bb26
+FF689d6a
+FF8ec07c
+FF458588
+FF83a598
+FFb16286
+FFd3869b

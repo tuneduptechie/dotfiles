@@ -3,126 +3,120 @@
   "logo": {
     "type": "builtin",
     "padding": {
-      "top": 1
-    }
+      "top": 1,
+    },
   },
   "display": {
-    "separator": " 󰑃  "
+    "separator": "",
+    "constants": ["────────────────────────────────────"],
   },
   "modules": [
     "break",
     {
+      "type": "custom",
+      "format": "┌{$1}┐",
+      "keyColor": "blue",
+    },
+    {
       "type": "os",
-      "key": " DISTRO",
-      "keyColor": "yellow"
+      "key": " DISTRO ",
+      "keyColor": "white",
     },
     {
       "type": "kernel",
-      "key": "│ ├",
-      "keyColor": "yellow"
+      "key": "│ ┌ ",
+      "keyColor": "white",
     },
     {
       "type": "packages",
-      "key": "│ ├󰏖",
-      "keyColor": "yellow"
+      "key": "│ ├󰏖 ",
+      "keyColor": "white",
     },
     {
       "type": "command",
-      "key": "│ ├",
-      "keyColor": "yellow",
-      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-    },
-    {
-      "type": "shell",
-      "key": "│ └󱆃",
-      "keyColor": "yellow"
-    },
-    {
-      "type": "wm",
-      "key": " DE/WM",
-      "keyColor": "blue"
-    },
-    {
-      "type": "wmtheme",
-      "key": "│ ├󰉼",
-      "keyColor": "blue"
-    },
-    {
-      "type": "icons",
-      "key": "│ ├󰀻",
-      "keyColor": "blue"
-    },
-    {
-      "type": "cursor",
-      "key": "│ ├󰇀",
-      "keyColor": "blue"
-    },
-    {
-      "type": "terminalfont",
-      "keyColor": "blue"
-    },
-    {
-      "type": "terminal",
-      "key": "│ └",
-      "keyColor": "blue"
-    },
-    {
-      "type": "host",
-      "key": "󰌢 SYSTEM",
-      "keyColor": "green"
-    },
-    {
-      "type": "cpu",
-      "key": "│ ├󰻠",
-      "keyColor": "green"
-    },
-    {
-      "type": "gpu",
-      "key": "│ ├󰢮",
-      "keyColor": "green",
-      "format": "{2}"
-    },
-    {
-      "type": "display",
-      "key": "│ ├󰍹",
-      "keyColor": "green",
-      "compactType": "original-with-refresh-rate"
-    },
-    {
-      "type": "memory",
-      "key": "│ ├",
-      "keyColor": "green"
-    },
-    {
-      "type": "disk",
-      "key": "│ ├",
-      "keyColor": "green"
+      "key": "│ ├ ",
+      "keyColor": "white",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
     },
     {
       "type": "uptime",
-      "key": "│ ├󰅐",
-      "keyColor": "green"
+      "key": "│ ├󰅐 ",
+      "keyColor": "white",
     },
     {
-      "type": "sound",
-      "key": " AUDIO",
-      "keyColor": "magenta",
-      "format": "{2}"
+      "type": "shell",
+      "key": "│ └󱆃 ",
+      "keyColor": "white",
+    },
+
+    {
+      "type": "wm",
+      "key": "󱂬 DE/WM ",
+      "keyColor": "white",
     },
     {
-      "type": "player",
-      "key": "│ ├󰥠",
-      "keyColor": "magenta"
+      "type": "wmtheme",
+      "key": "│ ┌󰉼 ",
+      "keyColor": "white",
     },
     {
-      "type": "media",
-      "key": "│ └󰝚",
-      "keyColor": "magenta"
+      "type": "icons",
+      "key": "│ ┌󰀻 ",
+      "keyColor": "white",
+    },
+    {
+      "type": "cursor",
+      "key": "│ ├󰇀 ",
+      "keyColor": "white",
+    },
+    {
+      "type": "terminalfont",
+      "key": "│ ├ ",
+      "keyColor": "white",
+    },
+    {
+      "type": "terminal",
+      "key": "│ └ ",
+      "keyColor": "white",
+    },
+    {
+      "type": "host",
+      "key": "󰌢 SYSTEM ",
+      "keyColor": "white",
+    },
+    {
+      "type": "cpu",
+      "key": "│ ┌󰻠 ",
+      "keyColor": "white",
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├󰢮 ",
+      "keyColor": "white",
+      "format": "{2}",
+    },
+    {
+      "type": "memory",
+      "key": "│ ├ ",
+      "keyColor": "white",
+    },
+    
+    {
+      "type": "disk",
+      "key": "│ ├ ",
+      "keyColor": "white",
+    },
+    {
+      "type": "display",
+      "key": "│ └󰍹 ",
+      "keyColor": "white",
+      "compactType": "original-with-refresh-rate",
     },
     {
       "type": "custom",
-      "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
+      "format": "└{$1}┘",
+      "keyColor": "white",
     },
-    "break"
-  ]
+    "break",
+  ],
 }

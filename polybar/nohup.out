@@ -1,0 +1,176 @@
+polybar: no process found
+No primary monitor detected, using first monitor: DisplayPort-1
+Detected 2 monitors: DisplayPort-1 HDMI-A-0
+Multi-monitor setup - EWMH and systray only on primary monitor
+Launched primary polybar with tray and EWMH on DisplayPort-1
+Launched secondary polybar without tray on HDMI-A-0
+polybar|notice:  Parsing config file: /home/tuneduptechie/.local/share/dwm-titus/polybar/themes/minimal/config.ini
+polybar|notice:  Parsing config file: /home/tuneduptechie/.local/share/dwm-titus/polybar/themes/minimal/config.ini
+polybar|notice:  Loading module 'ewmh' of type 'internal/xworkspaces'
+polybar|notice:  Loading module 'title' of type 'internal/xwindow'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  Loading module 'title' of type 'internal/xwindow'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0b_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0b_00.4.analog-stereo
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 3 modules
+polybar|notice:  Loading module 'tray' of type 'internal/tray'
+polybar|notice:  Loaded 5 modules
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Normal:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Normal:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Bold:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Bold.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Bold:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Bold.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Italic.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Italic.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:size=19" (name=MesloLGS Nerd Font, offset=5, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:size=19" (name=MesloLGS Nerd Font, offset=5, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "Feather:size=12" (name=Noto Sans, offset=3, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Feather:size=12" (name=Noto Sans, offset=3, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Outlined:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Outlined:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Round:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Round:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Sharp:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Sharp:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons TwoTone:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons TwoTone:size=13" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Noto Color Emoji:size=10" (name=Noto Znamenny Musical Notation, offset=2, file=/usr/share/fonts/noto/NotoZnamennyMusicalNotation-Regular.ttf)
+polybar|notice:  Loaded font "Noto Color Emoji:size=10" (name=Noto Znamenny Musical Notation, offset=2, file=/usr/share/fonts/noto/NotoZnamennyMusicalNotation-Regular.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+X connection to :0 broken (explicit kill or server shutdown).
+polybar: no process found
+No primary monitor detected, using first monitor: DisplayPort-1
+Detected 2 monitors: DisplayPort-1 HDMI-A-0
+Multi-monitor setup - EWMH and systray only on primary monitor
+Launched primary polybar with tray and EWMH on DisplayPort-1
+Launched secondary polybar without tray on HDMI-A-0
+polybar|notice:  Parsing config file: /home/tuneduptechie/dotfiles/polybar/themes/minimal/config.ini
+polybar|notice:  Parsing config file: /home/tuneduptechie/dotfiles/polybar/themes/minimal/config.ini
+polybar|error: Uncaught exception, shutting down: Failed to open config file /home/tuneduptechie/dotfiles-dwm/polybar/themes/minimal/include-modules.ini: No such file or directory
+polybar|error: Uncaught exception, shutting down: Failed to open config file /home/tuneduptechie/dotfiles-dwm/polybar/themes/minimal/include-modules.ini: No such file or directory
+polybar: no process found
+No primary monitor detected, using first monitor: DisplayPort-1
+Detected 2 monitors: DisplayPort-1 HDMI-A-0
+Multi-monitor setup - EWMH and systray only on primary monitor
+Launched primary polybar with tray and EWMH on DisplayPort-1
+Launched secondary polybar without tray on HDMI-A-0
+polybar|notice:  Parsing config file: /home/tuneduptechie/dotfiles/polybar/themes/minimal/config.ini
+polybar|notice:  Parsing config file: /home/tuneduptechie/dotfiles/polybar/themes/minimal/config.ini
+polybar|notice:  Listening for IPC messages (PID: 190188)
+polybar|notice:  Listening for IPC messages (PID: 190187)
+polybar|notice:  Loading module 'dwm-tags' of type 'custom/script'
+polybar|notice:  Loading module 'title' of type 'internal/xwindow'
+polybar|notice:  Loading module 'fs-root' of type 'internal/fs'
+polybar|notice:  Loading module 'fs-home' of type 'internal/fs'
+polybar|notice:  Loading module 'wired' of type 'internal/network'
+polybar|notice:  Loading module 'fs-media' of type 'internal/fs'
+polybar|notice:  Loading module 'fs-music' of type 'internal/fs'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'tray' of type 'internal/tray'
+polybar|notice:  Loading module 'wired' of type 'internal/network'
+polybar|notice:  Loading module 'bluetooth' of type 'custom/script'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0b_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0b_00.4.analog-stereo
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded 4 modules
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Normal:size=16" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Normal:size=16" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Bold:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Bold.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Bold:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Bold.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Italic.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Italic.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:size=19" (name=MesloLGS Nerd Font, offset=5, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:size=19" (name=MesloLGS Nerd Font, offset=5, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "Feather:size=12" (name=Noto Sans, offset=3, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Feather:size=12" (name=Noto Sans, offset=3, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Outlined:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Outlined:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Round:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Round:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Sharp:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Sharp:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons TwoTone:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons TwoTone:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Noto Color Emoji:size=10" (name=Noto Znamenny Musical Notation, offset=2, file=/usr/share/fonts/noto/NotoZnamennyMusicalNotation-Regular.ttf)
+polybar|notice:  Loaded font "Noto Color Emoji:size=10" (name=Noto Znamenny Musical Notation, offset=2, file=/usr/share/fonts/noto/NotoZnamennyMusicalNotation-Regular.ttf)
+polybar|warn:  Dropping unmatched character '🔴' (U+1f534) in '(796) 🔴 Building a "Linus-Proof" Distro - YouTube - ... '
+polybar|warn:  Dropping unmatched character '🔴' (U+1f534) in '(796) 🔴 Building a "Linus-Proof" Distro - YouTube - ... '
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
+polybar: no process found
+No primary monitor detected, using first monitor: DisplayPort-1
+Detected 2 monitors: DisplayPort-1 HDMI-A-0
+Multi-monitor setup - EWMH and systray only on primary monitor
+Launched primary polybar with tray and EWMH on DisplayPort-1
+Launched secondary polybar without tray on HDMI-A-0
+polybar|notice:  Parsing config file: /home/tuneduptechie/dotfiles/polybar/themes/minimal/config.ini
+polybar|notice:  Parsing config file: /home/tuneduptechie/dotfiles/polybar/themes/minimal/config.ini
+polybar|notice:  Listening for IPC messages (PID: 206177)
+polybar|notice:  Listening for IPC messages (PID: 206176)
+polybar|notice:  Loading module 'dwm-tags' of type 'custom/script'
+polybar|notice:  Loading module 'title' of type 'internal/xwindow'
+polybar|notice:  Loading module 'fs-root' of type 'internal/fs'
+polybar|notice:  Loading module 'fs-home' of type 'internal/fs'
+polybar|notice:  Loading module 'wired' of type 'internal/network'
+polybar|notice:  Loading module 'fs-media' of type 'internal/fs'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  Loading module 'fs-music' of type 'internal/fs'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'tray' of type 'internal/tray'
+polybar|notice:  Loading module 'wired' of type 'internal/network'
+polybar|notice:  Loading module 'bluetooth' of type 'custom/script'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0b_00.4.analog-stereo
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0b_00.4.analog-stereo
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 4 modules
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Normal:size=16" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Normal:size=16" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Bold:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Bold.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Bold:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Bold.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Italic.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Italic.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:style=Medium Italic:size=12" (name=MesloLGS Nerd Font, offset=3, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:size=19" (name=MesloLGS Nerd Font, offset=5, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "MesloLGS Nerd Font:size=19" (name=MesloLGS Nerd Font, offset=5, file=/home/tuneduptechie/.local/share/fonts/MesloLGSNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "Feather:size=12" (name=Noto Sans, offset=3, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Feather:size=12" (name=Noto Sans, offset=3, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Outlined:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Outlined:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Round:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Round:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Sharp:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons Sharp:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons TwoTone:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons TwoTone:size=16" (name=Noto Sans, offset=4, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
+polybar|notice:  Loaded font "Noto Color Emoji:size=10" (name=Noto Znamenny Musical Notation, offset=2, file=/usr/share/fonts/noto/NotoZnamennyMusicalNotation-Regular.ttf)
+polybar|notice:  Loaded font "Noto Color Emoji:size=10" (name=Noto Znamenny Musical Notation, offset=2, file=/usr/share/fonts/noto/NotoZnamennyMusicalNotation-Regular.ttf)
+polybar|warn:  Dropping unmatched character '🔴' (U+1f534) in '(796) 🔴 Building a "Linus-Proof" Distro - YouTube - ... '

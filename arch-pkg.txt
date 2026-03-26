@@ -1,0 +1,6 @@
+fastfetch
+rofi
+picom-ft-udev
+zsh
+oh-my-zsh
+feh
